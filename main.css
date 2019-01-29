@@ -51,6 +51,10 @@
 
 .card-body {
     width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
 }
 
 .user-avatar {
