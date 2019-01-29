@@ -10,31 +10,35 @@
 #header {
     color: palevioletred;
     font-size: 2em;
-    display: flex;
 
 }
+
+#main {display: flex;
+    flex-direction: row;}
 
 #nav {
     width: 20%;
     height: 400px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
 }
 
 #content {
     width: 70%;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #sidebar {
     width: 10%;
-    display: flex;
+    
 }
 
 #footer {
     font-size: 0.7em;
-    display: flex;
+    
 }
 
 .card-body {
@@ -46,5 +50,7 @@
 }
 
 #app {
-    flex-wrap: wrap;
+    display: flex; 
+    flex-direction: column;
+
 }
