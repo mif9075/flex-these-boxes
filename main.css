@@ -10,23 +10,28 @@
 #header {
     color: palevioletred;
     font-size: 2em;
+    
 }
 
 #nav {
     width: 20%;
     height: 400px;
+    
 }
 
 #content {
     width: 70%;
+    
 }
 
 #sidebar {
     width: 10%;
+    
 }
 
 #footer {
     font-size: 0.7em;
+    
 }
 
 .card-body {
@@ -35,4 +40,8 @@
 
 .user-avatar {
     padding-right: 10px;
+}
+
+#app {
+    flex-wrap: wrap;
 }
