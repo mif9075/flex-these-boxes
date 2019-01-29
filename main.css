@@ -7,14 +7,22 @@
     padding: 10px;
 }
 
+#app {
+    display: flex; 
+    flex-direction: column;
+}
+
 #header {
     color: palevioletred;
     font-size: 2em;
+    display: flex;
+    flex-direction: 
 
 }
 
 #main {display: flex;
-    flex-direction: row;}
+    flex-direction: row;
+}
 
 #nav {
     width: 20%;
@@ -49,8 +57,3 @@
     padding-right: 10px;
 }
 
-#app {
-    display: flex; 
-    flex-direction: column;
-
-}
